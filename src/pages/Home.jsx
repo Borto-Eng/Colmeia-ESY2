@@ -6,7 +6,7 @@ export default function Home() {
   // Seus links aqui! Adicione quantos quiser
   const meusLinks = [
     { title: 'ToolManagement 2.0', link: 'https://caweb01.br.bosch.com/ToolMGNT/tracking', relevance: 0, color: { from: '#c4d9ffff', to: '#3987eeff' }, image: tool_icon },
-
+    {title: 'VDS', link: 'https://ens-la.bosch-vds.com/',relevance: 0, color: { from: 'rgb(80, 80, 81)', to: 'rgb(197, 198, 199)' }},
   ];
   
   return <Colmeia links={meusLinks} />;
