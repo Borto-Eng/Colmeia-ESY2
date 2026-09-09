@@ -3,7 +3,7 @@ import Colmeia from '../components/Colmeia';
 import guideline_icon from '../images/guideline_icon.png';
 import xorder_icon from '../images/xorder_icon.png';
 import calendar from '../images/calendar.png';
-import bd_links from '../images/bdlinks_icon.png';
+import bdlinks_icon from '../images/bdlinks_icon.png';
 
 
 export default function Home() {
