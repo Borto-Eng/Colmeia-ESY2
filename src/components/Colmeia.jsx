@@ -224,7 +224,7 @@ export default function Colmeia({ links }) {
       
       {/* Logo */}
       <div className="absolute top-8 left-8 pointer-events-auto z-10">
-        <img src={logo} alt="Logo" className="w-38 h-27.6 drop-shadow-lg" />
+        <img src={logo} alt="Logo" className="w-78 h-55.2 drop-shadow-lg" />
       </div>
 
       {/* Barra de Pesquisa */}
