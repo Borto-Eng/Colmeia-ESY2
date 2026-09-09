@@ -1,6 +1,5 @@
 import React from 'react';
 import Colmeia from '../components/Colmeia';
-import tool_icon from '../images/tool_icon.png';
 import CalendarPic from '../images/calendar.png';
 
 export default function Calendar() {
