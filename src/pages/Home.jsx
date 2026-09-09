@@ -16,8 +16,8 @@ export default function Home() {
     {title: 'Tool Catalog', link: 'https://rb-tools.de.bosch.com/home',relevance: 0, color: { from: 'rgb(237, 164, 18)', to: 'rgb(234, 226, 181)' }}, 
     {title: 'Gestão de NFs', link: 'https://fde-nota-fiscal-34229078-edcnb0fretftb7bx.a02.azurefd.net/',relevance: 0, color: { from: 'rgb(10, 77, 108)', to: 'rgb(168, 179, 190)' }}, 
     {title: 'xORDER', link: 'https://rb-xorder.bosch.com/',relevance: 1, color: { from: 'rgb(21, 175, 157)', to: 'rgb(104, 145, 150)' }, image: xorder_icon },
-    {title: 'Calendário', link: '/calendar',relevance: 2, color: { from: 'rgb(4, 67, 175)', to: 'rgb(179, 179, 205)' }},
-    {title: 'Biblioteca Virtual', link: '/Biblioteca_virtual',relevance: 1, color: { from: 'rgb(190, 184, 10)', to:rgb(226, 230, 177)}},
+    {title: 'Calendário', link: '/Calendar',relevance: 2, color: { from: 'rgb(4, 67, 175)', to: 'rgb(179, 179, 205)' }},
+    {title: 'Biblioteca Virtual', link: '/Biblioteca_Virtual',relevance: 1, color: { from: 'rgb(190, 184, 10)', to: 'rgb(226, 230, 177)' }},
   ];
   
   return <Colmeia links={meusLinks} />;
