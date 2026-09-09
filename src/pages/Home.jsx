@@ -5,7 +5,7 @@ import tool_icon from '../images/tool_icon.png';
 export default function Home() {
   // Seus links aqui! Adicione quantos quiser
   const meusLinks = [
-    {title: 'Guideline Calibração', link: 'https://inside-docupedia.bosch.com/confluence/calibrationtrainingwiki/all/en/calibration-training-wiki-home-730767881.html', relevance: 0, color: { from: '#c4d9ffff', to: '#3987eeff' }, image: Guideline_icon.png },
+    {title: 'Guideline Calibração', link: 'https://inside-docupedia.bosch.com/confluence/calibrationtrainingwiki/all/en/calibration-training-wiki-home-730767881.html', relevance: 0, color: { from: '#c4d9ffff', to: '#3987eeff' }},
     {title: 'VDS', link: 'https://ens-la.bosch-vds.com/',relevance: 0, color: { from: 'rgb(80, 80, 81)', to: 'rgb(197, 198, 199)' }},
     {title: 'BD Links', link: 'https://bdweblaserviceslocations.bosch.com/MyBDLinksLA/home', relevance: 0, color: { from: '#c4d9ffff', to: '#3987eeff' }, image: bdlinks_icon.png }, 
     {title: 'Cardápio', link: 'https://ctweb03.br.bosch.com/presenter/#!/presentation',relevance: 2, color: { from: 'rgb(48, 48, 210)', to: 'rgb(197, 198, 199)' }},
