@@ -9,7 +9,6 @@ export default function Home() {
     {title: 'VDS', link: 'https://ens-la.bosch-vds.com/',relevance: 0, color: { from: 'rgb(80, 80, 81)', to: 'rgb(197, 198, 199)' }},
     {title: 'BD Links', link: 'https://bdweblaserviceslocations.bosch.com/MyBDLinksLA/home', relevance: 0, color: { from: '#c4d9ffff', to: '#3987eeff' }, image: bdlinks_icon }, 
     {title: 'Cardápio', link: 'https://ctweb03.br.bosch.com/presenter/#!/presentation',relevance: 2, color: { from: 'rgb(48, 48, 210)', to: 'rgb(197, 198, 199)' }},
-    {title: 'Pasta ESY2', link: 'S:\Powertrain\Engineering\00.General\02.Internal\05.ESY_comum\02_ESY2',relevance: 0, color: { from: 'rgb(80, 80, 81)', to: 'rgb(197, 198, 199)' }},  
     {title: 'Tool Catalog', link: 'https://rb-tools.de.bosch.com/home',relevance: 0, color: { from: 'rgb(80, 80, 81)', to: 'rgb(197, 198, 199)' }}, 
     {title: 'Gestão de NFs', link: 'https://fde-nota-fiscal-34229078-edcnb0fretftb7bx.a02.azurefd.net/',relevance: 0, color: { from: 'rgb(80, 80, 81)', to: 'rgb(197, 198, 199)' }}, 
     {title: 'xORDER', link: 'https://ens-la.bosch-vds.com/',relevance: 1, color: { from: 'rgb(80, 80, 81)', to: 'rgb(197, 198, 199)' }, image: xorder_icon },
