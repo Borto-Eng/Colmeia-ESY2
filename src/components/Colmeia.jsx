@@ -192,7 +192,7 @@ export default function Colmeia({ links }) {
       ref={containerRef}
       className="relative w-full h-screen overflow-hidden"
       style={{
-        background: 'linear-gradient(to bottom right, #111827, #007BC0, #111827)',
+        background: 'linear-gradient(to bottom right, #111827, #0baa8f, #111827)',
         cursor: isDragging ? 'grabbing' : 'grab'
       }}
       onMouseDown={handleMouseDown}
