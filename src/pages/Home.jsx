@@ -18,6 +18,8 @@ export default function Home() {
     {title: 'xORDER', link: 'https://rb-xorder.bosch.com/',relevance: 1, color: { from: 'rgb(21, 175, 157)', to: 'rgb(104, 145, 150)' }, image: xorder_icon },
     {title: 'Calendário', link: '/Calendar',relevance: 2, color: { from: 'rgb(4, 67, 175)', to: 'rgb(179, 179, 205)' }},
     {title: 'Biblioteca Virtual', link: '/Biblioteca_Virtual',relevance: 1, color: { from: 'rgb(190, 184, 10)', to: 'rgb(226, 230, 177)' }},
+    {title: 'Manage HUB', link: 'https://apps.powerapps.com/play/e/3ea6698a-0a46-ef72-8158-7aed8176ff5c/a/4eba796b-90cb-4a18-b6b8-08d90380fbd8?tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&sourcetime=1762179813073',relevance: 1, color: { from: 'rgb(10, 61, 190)', to: 'rgb(116, 19, 121)' }},
+    {title: 'Uber', link: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=GR7lCsgHS067bWSO5YQQ9Kse_UgzV4hCmm3vGZWkwpxUQkdLR083TFBLS01ZMVFGQUY1MTFKQ0JIWC4u',relevance: 1, color: { from: 'rgb(3, 2, 0)', to: 'rgb(255, 255, 255)' }},
   ];
   
   return <Colmeia links={meusLinks} />;
