@@ -4,6 +4,7 @@ import guideline_icon from '../images/guideline_icon.png';
 import xorder_icon from '../images/xorder_icon.png';
 import calendar from '../images/calendar.png';
 import bdlinks_icon from '../images/bdlinks_icon.png';
+import uber from '../images/uber.png';
 
 
 export default function Home() {
