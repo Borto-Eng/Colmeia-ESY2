@@ -115,11 +115,14 @@ export default function Favo({ link, title, relevance, x, y, color, image, isHig
           }}
         >
           {image ? (
-            <img 
-              src={image} 
-              alt={title} 
-              className="max-w-[70%] max-h-[70%] object-contain drop-shadow-md"
-            />
+            <>
+              <img
+                src={image}
+                alt={title}
+                className="max-w-[55%] max-h-[45%] object-contain drop-shadow-md"
+              />
+              <span className="drop-shadow-md mt-1 leading-tight">{title}</span>
+            </>
           ) : (
             <>
               <span className="drop-shadow-md">{title}</span>
