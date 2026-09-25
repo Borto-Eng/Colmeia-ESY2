@@ -21,6 +21,7 @@ export default function Home() {
     {title: 'Biblioteca Virtual', link: '/Biblioteca_Virtual',relevance: 1, color: { from: 'rgb(190, 184, 10)', to: 'rgb(226, 230, 177)' }},
     {title: 'Manage HUB', link: 'https://apps.powerapps.com/play/e/3ea6698a-0a46-ef72-8158-7aed8176ff5c/a/4eba796b-90cb-4a18-b6b8-08d90380fbd8?tenantId=0ae51e19-07c8-4e4b-bb6d-648ee58410f4&sourcetime=1762179813073',relevance: 1, color: { from: 'rgb(10, 61, 190)', to: 'rgb(116, 19, 121)' }},
     {title: '', link: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=GR7lCsgHS067bWSO5YQQ9Kse_UgzV4hCmm3vGZWkwpxUQkdLR083TFBLS01ZMVFGQUY1MTFKQ0JIWC4u',relevance: 1, color: { from: 'rgb(3, 2, 0)', to: 'rgb(255, 255, 255)' }, image: uber },
+  {title: 'Central de treinamentos', link: 'https://app.powerbi.com/reportEmbed?reportId=29e6dcee-1acb-4086-9afa-a7db0ef7e61d&autoAuth=true&ctid=0ae51e19-07c8-4e4b-bb6d-648ee58410f4',relevance: 0, color: { from: 'rgb(173, 195, 9)', to: 'rgb(255, 255, 255)' }},
   ]; 
   
   return <Colmeia links={meusLinks} />;
